@@ -1,0 +1,257 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    background: #fffafa;
+    cursor: url(../photos/cursor.png), auto;
+}
+
+@font-face {
+	font-family: newyork;
+	src: url(NewYork.otf);
+}
+
+h1 {
+	font-family: newyork;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 59px;
+	color: #000000;
+	margin-top: 35px;
+	margin-right: 25%;
+	margin-left: 25%;
+
+}
+
+.diff {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 45px;
+	line-height: 55px;
+	color: #000000;
+
+}
+
+.name {
+	font-family: newyork;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 24px;
+	color: #000000;
+	padding-left: 10px;
+}
+
+.stars {
+	background-image: url(assets/photos/star.jpeg);
+	position: absolute;
+	top: 188px;
+	margin-left: 25%;
+	display: block;
+	width: 378px;
+	height: 340px;
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+
+}
+
+.stars:hover {
+	filter: none;
+  	cursor: pointer;
+}
+
+.moon {
+	background-image: url(assets/photos/moon.jpeg);
+	z-index: 1;
+	position: absolute;
+	top: 284px;
+	margin-left: 45%;
+	display: block;
+	position: absolute;
+	width: 404px;
+	height: 365px;
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+
+.moon:hover {
+	filter: none;
+  	cursor: pointer;
+}
+
+.laserlab {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	margin-right: 25%;
+	margin-left: 25%;
+	color: #000000;
+	position: absolute;
+	top: 680px;
+}
+
+.info {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.laserlink {
+	-webkit-background-clip: text;
+	transition: all 0.8s ease;
+}
+
+.laserlink:hover {
+  	background: -webkit-linear-gradient(#e128ff, #ff5151);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	cursor: pointer;
+}
+
+.plier {
+	width: 339.49px;
+	display: block;
+	top: 170px;
+	position: absolute;
+
+}
+
+.hoops {
+	display: block;
+	top: 170px;
+	width: 274px;
+	position: absolute;
+	margin-left: 49%;
+
+}
+
+.supplies {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	position: absolute;
+	top: 580px;
+}
+
+.info1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.canallink {
+	-webkit-background-clip: text;
+	transition: all 0.8s ease;
+}
+
+.canallink:hover {
+  	background: -webkit-linear-gradient(#43acff, #94a4e9);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	cursor: pointer;
+}
+
+.ai {
+	display: block;
+	width: 274px;
+	position: absolute;
+	width: 418px;
+	padding-top: 70px;
+}
+
+.blue {
+	display: block;
+	margin-left: 65%;
+	width: 274px;
+	position: absolute;
+	width: 441px;
+	margin-top: 140px;
+}
+
+.file {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	position: absolute;
+	top: 780px;
+	width: 769px;
+}
+
+.info2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.fillrect {
+   border: 1px solid #4f80ff;
+   padding: 0 5px;
+   transition: all 0.5s ease;
+}
+
+.fillrect:hover {
+   background-color: #4f80ff;
+   cursor: pointer;
+}
+
+.dino {
+	display: block;
+	width: 683px;
+	padding-top: 55px;
+	height: 636px;
+	margin-left: 5%;
+	padding-bottom: 55px;
+  	-webkit-filter: grayscale(50%); 
+  	filter: grayscale(50%);	
+}
+
+.dino:hover {
+	filter: none;
+  	cursor: pointer;
+}
+
+.end {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.thanks {
+  	transition: all 6s ease-in-out;
+  	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 41px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-style: italic;
+}
+
+.thanks:hover {
+	cursor: pointer;
+    font-size: 3em;
+}
