@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background: #deead8;
+    cursor: url(../photos/teabag.png), auto;
+}
+
+.matcha{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    background: #deead8;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.image {
+    width: 562px;
+    height: 602px;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.menu {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    top: 2%;
+    margin: 2%;
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu:hover {
+    cursor: pointer;
+    background: #a3a3a3;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    top: 2%;
+    right: 2%;
+    margin: 2%;
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+}
+
+.top2:hover{
+    cursor: pointer;
+    background: #a3a3a3;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    right: 14%;
+    margin-left: 53%;
+    top: 22%;
+}
+
+.info {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.recipe {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe:hover {
+    cursor: pointer;
+    background: #7aaa81;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+iframe {
+    width: 610px;
+    height: 331px;
+    position: absolute;
+    margin-left: 53%;
+    top: 48%;
+}
