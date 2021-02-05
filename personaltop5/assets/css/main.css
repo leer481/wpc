@@ -1,0 +1,66 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    background: #f8f0df;
+    cursor: url(../photos/teabag.png), auto;
+   }
+
+.menu {
+    background: #f8f0df;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    position: absolute;
+    width: 493px;
+    height: 371px;
+    z-index: -1;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+    z-index: -1;
+
+}
+
+.top5 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    padding-top: 53px;
+    background: transparent;
+    padding-left: 43px;
+}
+
+.teas {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    padding-left: 20px;
+    letter-spacing: 0.24em;
+    background: transparent;
+    text-decoration: none;
+}
+
+.teas:hover {
+    cursor: pointer;
+    background: #c79976;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.numbers {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    background: transparent;
+    padding-left: 43px;
+    padding-top: 40px;
+}
