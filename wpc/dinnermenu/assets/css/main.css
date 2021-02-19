@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background: rgb(163,172,205);
+    background: linear-gradient(0deg, rgba(163,172,205,1) 0%, rgba(225,194,203,1) 100%);
+}
+
+@font-face {
+	font-family: MillionDreams;
+	src: url(MillionDreams.otf);
+}
+
+/* paper texture is not my own content */
+.paper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 673px;
+    height: 1666px;
+    position: relative;
+    top: 40px;
+    z-index: -1;
+
+}
+
+.shape {
+    display: block;
+    background: rgba(255, 249, 234, 0.49);
+    width: 673px;
+    height: 1666px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+
+}
+
+/* orginal illustration */
+.graphic {
+    position: relative;
+    top: 100px;
+    width: 265px;
+    height: 190px;
+}
+
+h1 {
+    font-family: MillionDreams;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    color: #5f7daf;
+    position: relative;
+    top: 170px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5F7DAF;
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-family: Million Dreams;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    color: #5F7DAF;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.date {
+   position: relative;
+   top: 160px;
+}
+
+.appetizer {
+    position: relative;
+    top: 220px;
+}
+
+.main {
+    position: relative;
+    top: 290px;
+}
+
+.dessert {
+    position: relative;
+    top: 360px;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+
+
