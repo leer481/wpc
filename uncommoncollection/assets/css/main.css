@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #26272b;
+   }
+
+@font-face {
+    font-family: Sporting_Grotesque-Regular;
+    src: url(Sporting_Grotesque-Regular.otf);
+}
+   
+h1 {
+    font-family: Sporting_Grotesque-Regular;
+    text-align: center;
+    margin-top: 4%;
+    color: white;
+}
+
+h2 {
+    font-family: Sporting_Grotesque-Regular;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+}
+
+p { 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food-container {
+    width: 30%;
+    height: auto;
+    padding: 1 rem;
+    border:  2px solid white;
+    margin: 1%;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+ }
+
+ .food-image {
+    height: 15vw;
+    width: 15vw;
+    padding: 5px;
+ }
+
+ .food-option {
+    display: none;
+    margin-top: 10%;
+    margin-bottom: 2%;
+ }
+
+ .food-option.active {
+     display: block;
+ }
+
+ .food-actualfood {
+    display: none;
+    height: 15vw;
+    width: 15vw;
+    padding: 5px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .food-actualfood.active {
+    display: block;
+}
+
+/* media queries */
+
+/* mobile */
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+
+    p {
+        font-size: 14px;
+    }
+
+    .food-container {
+        width: 60%;
+        margin: 2%;
+    } 
+
+    .food-image {
+        height: 25vw;
+        width: 25vw;
+     }
+
+     .food-actualfood {
+        display: none;
+        height: 25vw;
+        width: 25vw;
+     }
+
+}
+
+
