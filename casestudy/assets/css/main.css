@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #34b7c8;
+    text-align: center;
+   }
+
+@font-face {
+	font-family: Degular;
+	src: url(Sample.otf);
+}
+
+header {
+    justify-content: space-between;
+    padding: 1.5rem;
+    display: flex;
+    color: white;
+    font-family: Degular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: Degular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+    margin-top: 2%;
+}
+
+h2 {
+    font-family: Degular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3rem;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+h3 {
+    font-family: Degular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    color: white;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: left;
+}
+
+p {
+    color: white;
+}
+
+span {
+    font-family: Degular;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.mockup {
+    display: flex;
+    justify-content: center;
+}
+
+.website {
+    text-decoration: none;
+    font-family: Degular;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.website:hover {
+    text-decoration: underline;
+}
+
+#interaction {
+    padding: 3rem;
+}
+
+.airtable-embed {
+    padding: 3rem;
+}
+
+.sketches {
+    padding: 3rem;
+}
+
+#ending {
+    margin-bottom: 5%;
+}
+
+/* media queries */
+
+/* mobile */
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+    header {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+
+    .mockup {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #interaction {
+        width: 80%;
+    }
+
+    .airtable-embed {
+        width: 80%;
+    }
+
+    #sketch1 {
+        width: 100%;
+    }
+
+    #sketch2 {
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    #home {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    #clicking {
+        width: 80%;
+        padding-bottom: 1.5rem;
+    }
+
+
+
+
+
+
+}
+
+
